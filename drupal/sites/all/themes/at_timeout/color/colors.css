@@ -1,0 +1,362 @@
+/* AT Timeout Colors
+ * NOTICE: This is a commercial Drupal theme. Elements of this theme including this field
+ * are licensed under a standard commercial license which does not permit redistribution. 
+ */
+body {
+  color: #555555;
+  background-color: #8bd5f3;
+}
+
+/* HTML elements */
+fieldset legend,
+.form-item label {
+  color: #666666;
+}
+
+/* Links */
+a:link,
+a:visited,
+a:active,
+a.active {
+  color: #315690;
+}
+a:hover,
+a:focus {
+  color: #000000;
+}
+
+/* Tables */
+tr.even {
+  background: #ffffff;
+}
+
+/* Top menu */
+#menu-top-wrapper {
+  background: #f9f5f2;
+  border-bottom: 1px solid #7dbfda;
+}
+
+/* Header */
+#site-slogan,
+#site-name a,
+.region-header #block-user-login label {
+  color: #feffff;
+}
+.nav li a:link,
+.nav li a:hover,
+.nav li a:focus,
+.nav li a:visited,
+.nav li a:active,
+.nav li a.active,
+.nav li a:visited:hover {
+  color: #ffffff;
+}
+#menu-bar {
+  background: #68a6eb;
+}
+#menu-bar-wrapper {
+  background: #ffffff;
+}
+
+/* Footer */
+#footer,
+#footer a {}
+#footer #block-node-recent {
+  color: #444;
+}
+#footer #block-node-recent a {}
+
+/* Form, Elements */
+textarea,
+hr {
+  border-color: #7dbfda;
+}
+input.form-text,
+input.form-submit {
+  border-color: #f9f5f2;
+  background: #f9f5f2;
+  color: #7dbfda;
+}
+input.form-submit:hover,
+input.form-submit:focus {
+  border-color: #7dbfda;
+  background: #7dbfda;
+  color: #f9f5f2;
+}
+.resizable-textarea div.grippie {
+  background-color: #f9f5f2;
+  border-color: #7dbfda;
+}
+fieldset {
+  border-color: #7dbfda;
+}
+
+
+/* Book nav */
+.book-navigation ul.menu,
+.book-navigation .page-links {
+  border-color: #7dbfda;
+}
+
+/* Sidebar */
+.sidebar {}
+
+/* Blocks */
+.block-inner {
+  background: #ffffff;
+}
+.block-title {
+  color: #ffffff;
+}
+.sidebar .block-title {
+  background: #68a6eb;
+  border-bottom: 0;
+}
+#menu-top-wrapper .block-inner {
+  background: #f9f5f2;
+}
+.region-header .block-title {
+  background: transparent;
+}
+.region-content-aside .block-title {
+  background: #9edcf8;
+}
+.region-highlight .block-title {
+  background: #9edcf8;
+}
+.region-secondary-content .block-title,
+.region-tertiary-content .block-title {
+  background: #9edcf8;
+}
+#tripanel .block-title {
+  background: #76c048;
+}
+#bipanel .block-title {
+  background: #9edcf8;
+} 
+#tripanel-2 .block-title {
+  background: #76c048;
+}
+#tripanel-3 .block-title {
+  background: #76c048;
+}
+#footer .block-title {
+  background: #2b78cd;
+}
+.block .article,
+.block .article-sticky {
+  background: transparent;
+}
+
+/* Poll */
+.poll .bar {
+  background-color: #f9f5f2;
+  border: 0;
+}
+.poll .bar .foreground {
+  background-color: #68a6eb;
+}
+
+/* Articles */
+.article {
+  background: #ffffff;
+}
+.article .article-title {
+  border-bottom: solid 1px #7dbfda;
+}
+.submitted {
+}
+.article .submitted {
+  background: #F9F5F2;
+}
+.article-teaser.article-sticky .submitted {
+}
+.article-teaser.article-sticky {
+  background: #f9f5f2;
+}
+#main-content ul.links li {
+  background: #f9f5f2;
+}
+
+/* Fields */
+.field-type-image img {
+  border: 1px solid #7dbfda;
+}
+
+/* Comments */
+.comment {
+  background: #ffffff;
+}
+.comment footer {
+  color: #666666;
+}
+#comments .odd {
+  background: #f9f5f2;
+}
+
+/* Aggregator */
+#aggregator .feed-source {
+}
+
+/* Forum */
+#forum td.container {
+}
+#forum thead, 
+#forum tbody {
+  border: none;
+}
+tr.odd,
+tr.info {
+  background-color: #f9f5f2;
+}
+
+/* Profile */
+#profile .profile {
+}
+
+/* Administer */
+div.admin-panel {
+  background: #fdeaf7;
+}
+div.admin-panel h3 {
+}
+
+/* Pager */
+div.item-list ul.pager li {
+  background: #f9f5f2;
+}
+
+/* Breadcrumb */
+ol#crumbs li a {
+  color: #555555;
+}
+
+/* Local task tabs */
+ul.primary li a {
+  background: #ffffff;
+  border: solid 1px #7dbfda;
+  font-weight: 700;
+}
+ul.primary li a:hover {
+  background: #ffffff;
+  border: solid 1px #7dbfda;
+}
+ul.primary li a.active,
+ul.primary li.active a {
+  border: solid 1px #7dbfda;
+  background: #7dbfda;
+  color: #f9f5f2;
+}
+ul.primary li a.active:hover,
+ul.primary li a.active:focus {
+  border: solid 1px #7dbfda;
+  background: #7dbfda;
+  color: #f9f5f2;
+}
+ul.secondary li {
+  border-right: 0;
+  line-height: 2em;
+  margin: 0 0 0.5em;
+  padding: 0 1em 0 0;
+}
+
+/* Superfish Skin */
+.sf-menu.sf-style-default li,
+.sf-navbar.sf-style-default {
+  background: transparent;
+}
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li,
+.sf-menu.sf-style-default li li li li {
+  background: #8fc5ff;
+}
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default li.active a,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-navbar.sf-style-default li li {
+  background: #8fc5ff;
+}
+.sf-navbar.sf-style-default li ul li ul {
+  background-color: transparent;
+}
+/* .sf-horizontal */
+.sf-menu.sf-horizontal a {
+  border: 0 !important;
+  color: #ffffff;
+}
+/* .sf-navbar */
+.sf-navbar.sf-style-default li ul {
+  background-color: transparent !important;
+  width: 100%;
+}
+.sf-navbar > li > ul > li {
+  border-bottom: 1px solid #f9f5f2;
+}
+/* .sf-vertical */
+.sf-menu.sf-vertical a {
+  border: 0 !important;
+  color: #191919;
+  background: #f9f5f2;
+}
+.sf-menu.sf-vertical a:hover,
+.sf-menu.sf-vertical a:focus,
+.sf-menu.sf-vertical a:visited:hover {
+  background: #f9f5f2;
+}
+
+/* Calendar styles */
+.calendar-calendar div.date-nav {
+  background-color: transparent;
+  color: #315690;
+}
+.calendar-calendar div.date-nav a,
+.calendar-calendar div.date-nav h3 {
+  color: #315690;
+}
+.calendar-calendar td {
+  color: #7dbfda;
+}
+.calendar-calendar th {
+  background-color: #f9f5f2;
+  color: #315690;
+  border: 1px solid #7dbfda;
+}
+.calendar-calendar th.days {
+  background-color: #ffffff;
+  color: #315690;
+}
+.calendar-calendar tr td.today,
+.calendar-calendar tr.odd td.today,
+.calendar-calendar tr.even td.today {
+  background-color: #f9f5f2;
+}
+.calendar-calendar td.calendar-agenda-hour,
+.calendar-calendar td.calendar-agenda-items,
+.calendar-calendar td.calendar-agenda-hour {
+  border-color: #7dbfda;
+}
+.view-content .calendar-calendar ul.inline li {
+  border: 1px solid #7dbfda;
+}
+
+/* Quicktabs */
+.quicktabs-style-nostyle ul.quicktabs_tabs li a {
+  border-bottom: 3px solid #7dbfda;
+  text-decoration: none;
+}
+.quicktabs-style-nostyle ul.quicktabs_tabs li a:hover,
+.quicktabs-style-nostyle ul.quicktabs_tabs li a:focus,
+.quicktabs-style-nostyle ul.quicktabs_tabs li.active a {
+  border-bottom: 3px solid #fed534;
+}
+
+#block-node-syndicate .block-content-inner {
+  background: #f9f5f2;
+}
+
+#messages-wrapper {
+  background: #ffffff;
+}
