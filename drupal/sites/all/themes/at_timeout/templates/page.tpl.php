@@ -25,10 +25,10 @@
     <?php print render($page['header']); ?> <!-- /header region -->
   </header> <!-- /header -->
 
-  <?php if ($page['menu_bar']):?>
-    <div id="menu-bar-wrapper">
-      <?php print render($page['menu_bar']); ?> <!-- /menu bar -->
-    </div>
+  <?php if ($page['superfish_menu']): ?>
+    <div id="superfish">
+	  <?php print render ($page['superfish_menu']); ?>
+	</div>
   <?php endif; ?>
 
   <?php print $breadcrumb; ?> <!-- /breadcrumb -->

@@ -13,6 +13,11 @@
   stylesheets[all][] = css/tables.css
   stylesheets[all][] = color/colors.css
   stylesheets[all][] = css/style.css
+  stylesheets[all][] = sf/css/superfish.css
+  stylesheets[all][] = sf/css/theme.css
+
+;----------// Scripts
+  scripts[]          = sf/js/superfish.js
 
 ;----------// Regions
   ; This theme uses Gpanels from Adaptivetheme core (the ones starting with "GP"). 
@@ -102,8 +107,4 @@
   settings[body_background]                = 'bb-n'
   settings[menu_bullets]                   = 'mb-ah'
   
-  ;Superfish Stuff
 
-stylesheets[all][] = sf/css/superfish.css
-stylesheets[all][] = sf/css/theme.css
-scripts[]          = sf/js/superfish.js

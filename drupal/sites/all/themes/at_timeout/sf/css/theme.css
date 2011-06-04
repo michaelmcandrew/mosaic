@@ -1,11 +1,12 @@
 /* Superfish Default skin */
-#superfish {background: #2C788F; width: 100%; height: 26px;}
+#superfish {
+	width: 100%;
+}
 #superfish h2 {
   height: 0;
   overflow: hidden;
   position: absolute;
 }
-
 
 #superfish .menu {
   float: left;
