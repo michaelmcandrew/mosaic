@@ -25,6 +25,12 @@
     <?php print render($page['header']); ?> <!-- /header region -->
   </header> <!-- /header -->
 
+	<script type="text/javascript">
+	  jQuery(document).ready(function() {
+	    jQuery("#superfish ul.menu").superfish();
+	  });
+	</script>
+	
   <?php if ($page['superfish_menu']): ?>
     <div id="superfish">
 	  <?php print render ($page['superfish_menu']); ?>

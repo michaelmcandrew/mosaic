@@ -32,7 +32,7 @@
 #superfish .menu li:hover ul,
 #superfish .menu li.sfHover ul {
 	left:			0;
-	top:			26px; /* match top ul list item height */
+	top:			36px; /* match top ul list item height */
 	z-index:		99;
 }
 #superfish ul.menu li:hover li ul,
@@ -70,7 +70,7 @@
 	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 a > .sf-sub-indicator {  /* give all except IE6 the correct values */
-	top:			.6em;
+	top:			.9em;
 	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
 }
 /* apply hovers to modern browsers */
